@@ -3,6 +3,9 @@
 ## Project Overview
 An end-to-end computational drug discovery pipeline targeting bacterial proteins. This project integrates virtual screening, molecular docking, and long-trajectory molecular dynamics (MD) simulations to evaluate binding affinities and complex stability.
 
+## Virtual screening 
+Screened 2,854 compounds from DrugBank against PrfA using AutoDock; hydromorphone (referred to as UNK in trajectory files) was selected as the lead compound for MD validation based on binding affinity
+
 ## Molecular Dynamics Results (100 ns Trajectory)
 ### 1. Backbone RMSD Profile
 ![Backbone RMSD Profile](rmsd_comparison_plot.png)
